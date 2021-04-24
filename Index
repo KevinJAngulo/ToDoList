@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Demo with jQuery</title>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	    <meta name="description" content="Demo project with jQuery">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+		<style type="text/css"></style>
+	</head>
+	<body>
+		<p>Let the game begin!</p>
+		<h1>Careers</h1>
+		<select id="careers">
+    
+            <option value="#item1">African American Studies </option>
+                
+            <option value="#item2">American Studies</option>
+                
+            <option value="#item3">Anthropology</option>
+                
+            <option value="#item4">Archaeology</option>
+                
+            <option value="#item5">Art History</option>
+                
+            <option value="#item6">Art Studio</option>
+                
+            <option value="#item7">Astronomy</option>
+                
+            <option value="#item8">Biology</option>
+                
+            <option value="#item9">Chemistry</option>
+                
+            <option value="#item10">Classical Civilization</option>
+                
+            <option value="#item11">Classics</option>
+                
+            <option value="#item12">College of East Asian Studies</option>
+                
+        
+            <option value="#item13">College of Letters</option>
+                
+            <option value="#item14">College of Social Studies</option>
+                
+            <option value="#item15">Computer Science</option>
+                
+            <option value="#item16">Dance</option>
+                
+            <option value="#item17">Earth and Environmental Sciences</option>
+                
+            <option value="#item18">Economics</option>
+                
+            <option value="#item19">English</option>
+                
+            <option value="#item20">Environmental Studies (Linked Major)</option>
+                
+            <option value="#item21">Feminist, Gender, and Sexuality Studies</option>
+                
+            <option value="#item22">Film Studies</option>
+                
+            <option value="#item23">French Studies</option>
+                
+            <option value="#item24">German Studies</option>
+                
+            <option value="#item25">Government</option>
+                
+            <option value="#item26">Hispanic Literatures and Cultures</option>
+                
+            <option value="#item27">History</option>
+                
+            <option value="#item28">Italian Studies</option>
+                
+            <option value="#item29">Latin American Studies</option>
+                
+            <option value="#item30">Mathematics</option>
+                
+            <option value="#item31">Medieval Studies</option>
+                
+            <option value="#item32">Molecular Biology and Biochemistry</option>
+                
+            <option value="#item33">Music</option>
+                
+            <option value="#item34">Neuroscience and Behavior</option>
+                
+            <option value="#item35">Philosophy</option>
+                
+            <option value="#item36">Physics</option>
+                
+            <option value="#item37">Psychology</option>
+                
+            <option value="#item38">Religion</option>
+                
+            <option value="#item39">Romance Studies</option>
+                
+        
+            <option value="#item40">Science in Society</option>
+                
+            <option value="#item41">Sociology</option>
+                
+            <option value="#item42">Theater</option>
+		</select>
+		<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+		<script type="text/javascript">
+			jQuery(function(){
+				$('#careers').on('change', function(){
+					console.log($(this).val());
+
+				});
+			});
+		</script>
+	</body>
+</html>
